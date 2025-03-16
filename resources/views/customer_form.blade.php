@@ -35,7 +35,6 @@
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
 
-    {{-- <form action="{{ route('customers.store') }}" method="POST"> --}}
         <form action="{{url('/customers/store')}}" method="POST">
         @csrf
 
